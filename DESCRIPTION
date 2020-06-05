@@ -1,0 +1,18 @@
+Package: rpcg
+Title: Permuted Congruential Generator Random Numbers
+Version: 0.1.0
+Authors@R: c(person("Rich", "FitzJohn", role = c("aut", "cre"),
+                    email = "rich.fitzjohn@gmail.com"),
+             person("Imperial College of Science, Technology and Medicine",
+                    role = "cph"))
+Description: Provides an R and C interface to the 'PCG' (Permuted
+    Congruential Generator) family of random number generators. These
+    can be used from R code but the primary aim is to make it possible
+    to access these generators from C or C++ code using R's
+    'LinkingTo' support.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Language: en-GB
+Suggests:
+    testthat
