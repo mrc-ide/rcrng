@@ -1,4 +1,4 @@
 library(testthat)
-library(rpcg)
+library(rcrng)
 
-test_check("rpcg")
+test_check("rcrng")
